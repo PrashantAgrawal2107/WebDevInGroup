@@ -1,0 +1,70 @@
+h1{
+    background-color: aquamarine;
+    border: 2px solid cornflowerblue;
+    /* position:sticky;
+    top: 5px; */
+}
+/* ID selector */
+#link{
+    background-color: rgb(210, 210, 38);
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: x-large;
+    color: rgb(24, 60, 60);
+
+}
+/* Class selector */
+.bgGreen{
+    border: 5px cornflowerblue;
+    background-color: rgb(46, 195, 46);
+    font-style: calc();
+}
+#bgLgreen{
+    background-color: rgb(107, 166, 141);
+    color: blue;
+}
+.hii{
+    color: darkblue;
+    background-color: rgb(235, 170, 91);
+    font-style: oblique;
+}
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+    /* position: sticky;
+    top:5px; */
+}
+#font2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    font-size: x-large;
+    font-style: initial;
+    font-variant: small-caps;
+}
+#all{
+    background-color: rgb(0, 255, 255);
+    color: rgb(123, 12, 226);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: unset;
+}
+#special{
+     background-color: rgb(58, 145, 145);
+}
+#form{
+    color: rgb(160, 15, 73);
+    font-style: oblique;
+    font-weight: 400;
+
+}
+
+/* Grouping selector */
+footer,#me{
+    background-color: #ff3245;/* Choosing color using hex code*/
+    font-variant: small-caps;
+}
+/* footer{
+    position:fixed;
+    bottom: 2px;
+    right:5px;
+} */
