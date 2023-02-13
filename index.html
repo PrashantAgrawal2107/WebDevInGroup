@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prashant 1.0</title>
+    <link rel="stylesheet" href="/HTML-MY SITE/css/index.css">
+    <link rel="icon" href="/HTML-MY SITE/ico.png">
+    <style>
+        /* body {
+               background-color: #E3F6FF;
+        } */
+        hr {
+        
+            background-color: white;
+            border-style: none;
+            height: 1.5px;
+        }
+        /* #dots{
+              width: 20px;
+              border-style : dotted none none;
+              border-color: grey;
+              border-width: 3px;
+        } */
+    </style>
 </head>
 <body>
     <h1>PRASHANT AGRAWAL</h1>
+    <div class="top">
     <table cellspacing="20">
         <tr>
             <td><img src="Prashant Profile Photo.jpg" alt="Prashant Profile Photo" height="120px" ></td>
@@ -17,14 +37,17 @@
                 </p></td>
         </tr>
     </table>
+    </div>
     
    
 
     <hr>
 
-    <h3>Now we are going to learn about the lists in HTML -
-    </h3>
+    <h3>Now we are going to learn about the lists in HTML -</h3>
+    <div class="list">
+      <div class="classmates">
     <h4>Mere bhadwe Classmates</h4>
+   
     <ul>
         <li>Ravi Agrawal</li>
         <li>Prateek Pratap Singh</li>
@@ -32,8 +55,10 @@
         <li>Saurabh Rawat</li>
         <li>ME Myself</li>
     </ul>
-  <hr>
+  </div>
+  <div class="country">
     <h4>Lists of cricket playing nations</h4>
+    
     <ol type="a">
         <li>India</li>
         <li>Austrailia</li>
@@ -41,33 +66,47 @@
         <li>Newzealand</li>
         <li>Srilanka</li>
     </ol>
-  <hr>
+  </div>
+  <div class="cricketers">
   <h4>Lists of best cricketers of this era -</h4>
+  <div class="batsman">
   <h5>BEST BATSMAN</h6>
+    
   <ol type="1">
     <li>Virat Kohli</li>
     <li>Rohit Sharma</li>
     <li>Ken Williomson</li>
   </ol>
+</div>
+<div class="bowler">
   <h5>BEST BOWLERS</h5>
+  
   <ol type="i">
     <li>James Anderson</li>
     <li>Ravichandran Ashwin</li>
     <li>Josh Hazlewood</li>
   </ol>
+</div>
+</div>
+  </div>
   <hr>
   <h3>The King Kohli</h3>
+  <div class="images">
   <a href="https://en.wikipedia.org/wiki/Virat_Kohli"><img src="https://cdn.kalingatv.com/wp-content/uploads/2018/12/virat-kohli.jpg" alt="The King" height="300px"></a>
   <img src="https://3.bp.blogspot.com/-uTzYx5qSqB4/XJkeWdX-6LI/AAAAAAAAAlw/QuKmHlGYtmsEOetLhT3BY0F7_jAolserQCLcBGAs/s1600/f5aa1e75715466bdb6932a14296ea1a3.jpg" alt="The King" height="300px" >
   <img src="https://i.pinimg.com/originals/14/63/a6/1463a6bdcacfee9a81709a334af65327.jpg" height=300px width="270px">
+</div>
   <hr>
   <h3>Let's learn about links</h3>
+  <div class="links">
   <p>The brands endorsed by Virat Kohli are <strong><a href="https://in.puma.com
     " target="main">PUMA</a> and  <a href="https://www.myntra.com" target="_blank">MYNTRA</a></strong> and many more.</p>
-    <p>The works done by me in previous time on HTML are <a href="/first.html">FIRST WORK</a> and  <a href="/level3.html" target="main">LEVEL 3</a></p>
+    <p>The works done by me in previous time on HTML are <a href="/harry/first.html">FIRST WORK</a> and  <a href="/harry/level3.html" target="main">LEVEL 3</a></p>
+  </div>
 
     <hr>
     <h3>My Journey</h3>
+    <div class="table1">
 
     <table border="2">
         <thead>
@@ -113,8 +152,10 @@
 
         </tbody>
     </table>
+  </div>
 
     <h3>My Skills</h3>
+    <div class="table2">
     <table border="1">
         <td>
             <table cellspacing="5">
@@ -144,12 +185,16 @@
             </table>
         </td>
     </table>
+  </div>
+    <hr>
+    <div class="form">
     <form action="mailto:prashantagrawal2107@gmail.com" method="post" enctype="text/plain">
-        <h4>Enter the Details </h4>
+        <div class="details">
+      <h4>Enter the Details </h4>
        
         <label>UserName : </label> <input type="text" name="Name " placeholder="Username">
           <br>
-        <label>Passowrd : </label> <input type="password" name="Password" placeholder="Password" >
+        <label>Password : </label> <input type="password" name="Password" placeholder="Password" >
         <br>
         <label>Contact No. : </label> <input type="number" name="Contact " placeholder="Mobile no." >
         <br>
@@ -157,6 +202,7 @@
         <br>
         <!-- "name= "something" " id used to display the in backend -->
         DATE : <input type="date" name="Date" value="date">
+        </div>
         <h4>Choose the class</h4>
 
           <label for="01">
@@ -166,7 +212,9 @@
             <input type="radio" value="class XII" name="Class" id="02" />class XII
           </label>
           <label for="03"><input type="radio" value="Undergraduation" name="Class" id="03" >Undergraduation</label>
-        
+
+          <!-- Using "label", we can ensure that user can tick the option by clicking over the options  -->
+        <!-- Please ensure that the "value" and the text displayed on site is same -->
         <br>
        
         <h4>Choose the Games You play</h4>
@@ -200,18 +248,20 @@
         <br>
         <input type="submit" value="submit">
       </form>
-      <hr>
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" frameborder="0" allow="accelerometer"></iframe>
+    </div>
+      <hr id="dots">
+
+      <div class="iframe">
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" frameborder="0" allow="accelerometer"></iframe>
 
       <br>
 
       <iframe width="560" height="515" src="https://www.icc-cricket.com/rankings/mens/player-rankings/odi" frameborder="0"></iframe>
+      <video src="https://youtu.be/shoQfc0cJp4">Padhai Video</video>
 
-   
-    
+    </div>
 
-
-
+      
 </body>
 </html>
