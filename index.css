@@ -1,0 +1,75 @@
+body {
+    background-color: #ffdee4;
+}
+
+h1{
+    color: #ff0000;
+   
+}
+h3{
+    color: #282547;
+}
+h4{
+    color: rgb(99, 68, 10) ;
+
+}
+ .classmates{
+    display: inline-block;
+    background-color: #ffff65;
+    padding: 5px 80px 5px 10px;
+    margin: 5px 20px 5px 20px;  
+    border: solid 2px;
+    border-color: rgba(120, 13, 13, 0.87);
+}
+.country{
+    display: inline-block;
+    background-color: #ffff65;
+    padding:5px 50px 5px 20px ;
+    border: solid 2px;
+    border-color: rgba(120, 13, 13, 0.87);
+
+}
+.batsman{
+    display: inline-block;
+    background-color: rgb(191, 191, 255);
+    padding: 5px 100px 10px 20px;
+    margin: 5px 20px 10px 20px ;
+    border: solid 2px;
+    border-color:  rgba(96, 0, 0, 0.87) ;
+}
+.bowler{
+    display: inline-block;
+    background-color: rgb(191, 191, 255);
+    padding: 5px 80px  10px 20px;
+    border: solid 2px ;
+    border-color:  rgba(96, 0, 0, 0.87);
+    
+}
+h5{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    color: rgba(158, 0, 0, 0.87);
+}
+/* .cricketers{
+    display: inline-block;
+} */
+
+p{
+    background-color: aliceblue;
+    padding: 10px;
+    border: solid 2px rgb(91, 15, 25);
+}
+.table1{
+    display: inline-block;
+    background-color: rgb(251, 233, 171);
+}
+th{
+    color: rgb(18, 11, 96);
+    font-style: oblique;
+}
+.details{
+    display: inline-block;
+    background-color: #ffff57;
+    margin: 5px;
+    padding: 5px 20px 20px 20px;
+}
